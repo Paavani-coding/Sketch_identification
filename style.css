@@ -1,0 +1,54 @@
+body
+{
+background-color:#041a5b;
+color: aliceblue !important;
+}
+
+h1
+{
+  
+ 
+  text-align: center !important;
+
+}
+
+#show_sketch
+{
+  float:right;
+  margin-right: 15px;
+  background-color: limegreen;
+}
+
+canvas 
+  {
+    border:5px solid rgb(231, 180, 104);
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 450px; 
+    margin-bottom: 100px;
+    margin-right: 50px;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(99, 1, 1);}
+  to {box-shadow: 1px 1px 38px rgb(107, 111, 2);}
+
+}
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+    padding-right: 50px;
+    
+  }
+ 
+h2{
+  color: azure;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center !important;
+}
